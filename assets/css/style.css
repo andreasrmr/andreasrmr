@@ -551,6 +551,7 @@ section .container {
 /*--------------------------------------------------------------
 # Testimonials
 --------------------------------------------------------------*/
+/*
 .testimonials .testimonials-carousel,
 .testimonials .testimonials-slider {
   overflow: hidden;
@@ -628,7 +629,7 @@ section .container {
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
   background-color: #18d26e;
 }
-
+*/
 /*--------------------------------------------------------------
 # Resume
 --------------------------------------------------------------*/
@@ -1037,6 +1038,13 @@ section .container {
 .contact .info-box .social-links {
   margin: 5px 0 0 68px;
   display: flex;
+  
+}
+
+/*ar*/
+.contact .info-box .social-links li {
+  list-style-type: none;
+  margin-bottom: 1em;
 }
 
 .contact .info-box .social-links a {
@@ -1047,11 +1055,6 @@ section .container {
   margin-right: 12px;
   transition: 0.3s;
 }
-
-.contact .info-box .social-links li {
-  list-style-type: none;
-}
-
 
 .contact .info-box .social-links a:hover {
   color: #18d26e;
